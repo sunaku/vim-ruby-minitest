@@ -3,6 +3,7 @@ syntax keyword rubyTestMethod
       \ skip
       \ flunk
       \ assert
+      \ assert_block
       \ assert_empty
       \ assert_equal
       \ assert_in_delta
@@ -14,8 +15,11 @@ syntax keyword rubyTestMethod
       \ assert_nil
       \ assert_operator
       \ assert_predicate
+      \ assert_raises
       \ assert_respond_to
       \ assert_same
+      \ assert_silent
+      \ assert_throws
       \ refute
       \ refute_empty
       \ refute_equal
