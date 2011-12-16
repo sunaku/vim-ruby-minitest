@@ -66,4 +66,10 @@ syntax keyword rubyTestMethod
       \ wont_match
       \ wont_respond_to
 
+syntax keyword rubyTestStatement
+      \ describe
+      \ it
+      \ before
+
 highlight link rubyTestMethod Function
+highlight link rubyTestStatement Statement
