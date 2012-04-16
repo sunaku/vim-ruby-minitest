@@ -69,7 +69,11 @@ syntax keyword rubyTestMethod
 syntax keyword rubyTestStatement
       \ describe
       \ it
+      \ context
       \ before
+      \ should
+      \ teardown
+      \ setup
 
 highlight link rubyTestMethod Function
 highlight link rubyTestStatement Statement
