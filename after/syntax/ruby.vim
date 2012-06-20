@@ -74,6 +74,7 @@ syntax keyword rubyTestStatement
       \ should
       \ teardown
       \ setup
+      \ expect
 
 highlight link rubyTestMethod Function
 highlight link rubyTestStatement Statement
