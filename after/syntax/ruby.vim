@@ -1,7 +1,4 @@
 syntax keyword rubyTestMethod
-      \ pass
-      \ skip
-      \ flunk
       \ assert
       \ assert_block
       \ assert_empty
@@ -20,20 +17,7 @@ syntax keyword rubyTestMethod
       \ assert_same
       \ assert_silent
       \ assert_throws
-      \ refute
-      \ refute_empty
-      \ refute_equal
-      \ refute_in_delta
-      \ refute_in_epsilon
-      \ refute_includes
-      \ refute_instance_of
-      \ refute_kind_of
-      \ refute_match
-      \ refute_nil
-      \ refute_operator
-      \ refute_predicate
-      \ refute_respond_to
-      \ refute_same
+      \ flunk
       \ must_be
       \ must_be_close_to
       \ must_be_empty
@@ -52,6 +36,22 @@ syntax keyword rubyTestMethod
       \ must_respond_to
       \ must_send
       \ must_throw
+      \ pass
+      \ refute
+      \ refute_empty
+      \ refute_equal
+      \ refute_in_delta
+      \ refute_in_epsilon
+      \ refute_includes
+      \ refute_instance_of
+      \ refute_kind_of
+      \ refute_match
+      \ refute_nil
+      \ refute_operator
+      \ refute_predicate
+      \ refute_respond_to
+      \ refute_same
+      \ skip
       \ wont_be
       \ wont_be_close_to
       \ wont_be_empty
@@ -67,14 +67,15 @@ syntax keyword rubyTestMethod
       \ wont_respond_to
 
 syntax keyword rubyTestStatement
-      \ describe
-      \ it
-      \ context
+      \ after
       \ before
+      \ context
+      \ describe
+      \ expect
+      \ it
+      \ setup
       \ should
       \ teardown
-      \ setup
-      \ expect
 
 highlight link rubyTestMethod Function
 highlight link rubyTestStatement Statement
