@@ -37,6 +37,7 @@ syntax keyword rubyTestMethod
       \ must_send
       \ must_throw
       \ must_have_content
+      \ must_have_css
       \ pass
       \ refute
       \ refute_empty
@@ -64,6 +65,7 @@ syntax keyword rubyTestMethod
       \ wont_be_within_epsilon
       \ wont_equal
       \ wont_have_content
+      \ wont_have_css
       \ wont_include
       \ wont_match
       \ wont_respond_to
@@ -71,6 +73,7 @@ syntax keyword rubyTestMethod
       \ body
       \ fill_in
       \ check
+      \ uncheck
       \ click_link
       \ click_button
       \ choose
