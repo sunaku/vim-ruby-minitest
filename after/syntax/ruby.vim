@@ -1,3 +1,6 @@
+syntax match rubyTestAssertionOrRefutation "\vassert_(\w|\?|!)+"
+syntax match rubyTestAssertionOrRefutation "\vrefute_(\w|\?|!)+"
+
 syntax keyword rubyTestMethod
       \ assert
       \ assert_block
@@ -78,4 +81,5 @@ syntax keyword rubyTestStatement
       \ teardown
 
 highlight link rubyTestMethod Function
+highlight link rubyTestAssertionOrRefutation Function
 highlight link rubyTestStatement Statement
