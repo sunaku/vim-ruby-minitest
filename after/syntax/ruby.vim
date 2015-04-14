@@ -76,6 +76,9 @@ syntax keyword rubyTestStatement
       \ setup
       \ should
       \ teardown
+      \ scenario
+      \ feature
+      \ background
 
 highlight link rubyTestMethod Function
 highlight link rubyTestStatement Statement
