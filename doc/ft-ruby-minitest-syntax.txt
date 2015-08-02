@@ -7,7 +7,10 @@ OPTIONS ~
 ruby_minitest_fold  (default: none) ~
 
   Set to 1 to enable |folding| on main section blocks (`describe` and `it`
-  blocks). >
+  blocks).
+
+  Note: to reduce complexity, only `end` with same indentation level as
+  its beginning is detected. >
 
     let g:ruby_minitest_fold = 1
 <
