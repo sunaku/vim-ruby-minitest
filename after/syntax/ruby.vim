@@ -70,15 +70,15 @@ syntax keyword rubyTestStatement
       \ after
       \ before
       \ context
-      \ describe
       \ expect
-      \ it
       \ setup
       \ should
       \ teardown
       \ scenario
       \ feature
       \ background
+
+" See after/syntax/ruby/minitest.vim for "describe, it" blocks definition
 
 highlight link rubyTestMethod Function
 highlight link rubyTestStatement Statement

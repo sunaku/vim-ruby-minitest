@@ -1,0 +1,23 @@
+RUBY MINITEST             *ruby-minitest-syntax.vim*  *ft-rubyminitest-syntax*
+
+==============================================================================
+OPTIONS ~
+
+                                                          *ruby_minitest_fold*
+ruby_minitest_fold  (default: none) ~
+
+  Set to 1 to enable |folding| on main section blocks (`describe` and `it`
+  blocks).
+
+  Note: to reduce complexity, only `end` with same indentation level as
+  its beginning is detected. >
+
+    let g:ruby_minitest_fold = 1
+<
+  - Must set before loading this syntax file. e.g., in .vimrc.
+  - Remember also set 'foldmethod' to "syntax".
+  - Support global (|g:|) or buffer-local (|b:|) setting.
+
+
+==============================================================================
+vim:tw=78:fo=tcroq2mM:et:sts=2:sw=2:ft=help:norl:
