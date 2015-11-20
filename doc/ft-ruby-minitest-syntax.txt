@@ -10,7 +10,7 @@ ruby_minitest_fold  (default: none) ~
   blocks).
 
   Note: to reduce complexity, only `end` with same indentation level as
-  its beginning is detected. >
+        its beginning is detected. >
 
     let g:ruby_minitest_fold = 1
 <
@@ -18,6 +18,9 @@ ruby_minitest_fold  (default: none) ~
   - Remember also set 'foldmethod' to "syntax".
   - Support global (|g:|) or buffer-local (|b:|) setting.
 
+  Note: Enabling ruby_mintest_fold if using another Ruby plug-in that provides
+  folding, especially vim-ruby, is discouraged; block folding regions are
+  defined in these plug-ins in incompatible ways.
 
 ==============================================================================
 vim:tw=78:fo=tcroq2mM:et:sts=2:sw=2:ft=help:norl:

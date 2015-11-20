@@ -2,7 +2,10 @@ let s:fold = get(b:, 'ruby_minitest_fold', get(g:, 'ruby_minitest_fold'))
 let s:i = ''
 
 if !has('folding') || empty(s:fold)
-  let s:fold = ''
+  syntax keyword rubyTestMethod
+        \ describe
+        \ it
+  finish
 else
   let s:fold = ' fold'
 endif
