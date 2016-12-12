@@ -36,6 +36,8 @@ syntax keyword rubyTestMethod
       \ must_respond_to
       \ must_send
       \ must_throw
+      \ must_have_content
+      \ must_have_css
       \ pass
       \ refute
       \ refute_empty
@@ -62,9 +64,23 @@ syntax keyword rubyTestMethod
       \ wont_be_within_delta
       \ wont_be_within_epsilon
       \ wont_equal
+      \ wont_have_content
+      \ wont_have_css
       \ wont_include
       \ wont_match
       \ wont_respond_to
+      \ save_screenshot
+      \ body
+      \ fill_in
+      \ check
+      \ uncheck
+      \ click_link
+      \ click_button
+      \ choose
+      \ visit
+      \ current_path
+      
+      
 
 syntax keyword rubyTestStatement
       \ after
@@ -73,6 +89,7 @@ syntax keyword rubyTestStatement
       \ expect
       \ setup
       \ should
+      \ page
       \ teardown
       \ scenario
       \ feature
