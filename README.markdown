@@ -1,4 +1,4 @@
-# vim-ruby-minitest
+# vim-ruby-minitest README
 
 Vim syntax highlighting and `i_CTRL-X_CTRL-U` completion of [MiniTest](
 https://github.com/seattlerb/minitest#readme) methods and assertions.
